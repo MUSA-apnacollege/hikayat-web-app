@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Hikayat Web App Design Test (A)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a submission for the Hikayat Web App Design Test based on the provided Figma design.
 
-## Available Scripts
+### Home Page  
+![Home Page Screenshot](./public/home-page.png)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📦 Tech Stack
+- React.js
+- Tailwind CSS
+- React Router
+- useState / useEffect (for state management)
+- Mock data for team and categories
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 How to Run the App
 
-### `npm test`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MUSA-apnacollege/hikayat-web-app.git
+   cd hikayat-web-app
+   npm install
+   npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+   ✅ Features Completed
+Home Page with dynamic categories using mock data
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Team Management Page:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+View/Add/Edit/Delete members
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Basic form validation
 
-### `npm run eject`
+Statistics Dashboard:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Dynamic summary of collection counts
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Navigation with React Router
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Reusable components (Sidebar, Card, Form)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Responsive layout (partially or fully)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🧠 Thought Process & Challenges
+Focused on modularity — broke the UI into reusable components.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Used useState and useEffect for managing local state.
 
-### Code Splitting
+Mock data was created to simulate real content without API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Styling was based closely on the Figma design using modern CSS/SCSS (or Tailwind, if used).
 
-### Analyzing the Bundle Size
+Challenge: Managing component layout to match exact Figma design — learned a lot!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+🧩 Challenges Faced
+Tailwind custom class styling and hover effects needed careful overrides.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Ensuring responsive design and smooth UX took fine-tuning.
 
-### Advanced Configuration
+Managing edit vs. add functionality in forms.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🛠️ Potential Improvements
+Add persistent storage (e.g., saving data in localStorage or integrating with a real backend in the future).
 
-### Deployment
+Show loading indicators or success/error messages for better user feedback.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Use a form library like react-hook-form for cleaner form validation and state handling.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
