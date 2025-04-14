@@ -5,6 +5,15 @@ This is a submission for the Hikayat Web App Design Test based on the provided F
 ### Home Page  
 ![Home Page Screenshot](./public/home-page.png.png)
 
+### Team Management  
+![Team Page Screenshot](./public/team-page.png)
+
+### Statistics Dashboard  
+![Stats Dashboard](./public/stats-dashboard.png)
+
+### Forms with Validation
+![Form](./public/Forms-Validation.png)
+
 ---
 
 ## 📦 Tech Stack
