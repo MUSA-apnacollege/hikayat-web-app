@@ -12,7 +12,7 @@ This is a submission for the Hikayat Web App Design Test based on the provided F
 ![Stats Dashboard](./public/stats-dashboard.png)
 
 ### Forms with Validation
-![Form](./public/Forms-Validation.png)
+![Form](./public/Forms.png)
 
 ---
 
