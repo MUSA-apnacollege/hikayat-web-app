@@ -3,7 +3,7 @@
 This is a submission for the Hikayat Web App Design Test based on the provided Figma design.
 
 ### Home Page  
-![Home Page Screenshot](./public/home-page.png)
+![Home Page Screenshot](./public/home-page.png.png)
 
 ---
 
